@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<meta charset="UTF-8">
+	<title>Backbone tuts </title>
+</head>
+<body>
+	<div class="container">
+		<h1>Oh Hiiiiii App</h1>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Author</th>
+					<th>Title</th>
+					<th>Url</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody class="blogs-list"></tbody>
+		</table>
+
+	</div>
+	
+
+	<script type="text/template" class="blog-lists-template">
+	<td><span class="author"><% = author %></span></td>
+	<td><span class="author"><% = title %></span></td>
+	<td><span class="author"><% = url %></span></td>
+	<td><button class="btn btn-warning edit-blog">Edit</button><button class="btn btn-warning edit-blog">Delete</button></td>
+	</script>
+
+	
+	
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/underscore/underscore.js"></script>
+	<script src="bower_components/backbone/backbone.js"></script>
+	<script src="scripts.js"></script>
+	
+</body>
+</html>
